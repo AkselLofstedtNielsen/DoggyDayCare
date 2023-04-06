@@ -1,0 +1,161 @@
+
+body {
+  background-color: #000000;
+  color: #f0eef1;
+}
+
+.welcome-container {
+  background: url("http://m.gettywallpapers.com/wp-content/uploads/2020/11/Dogs-Wallpaper-Desktop.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.welcome-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff79c6;
+}
+
+.welcome-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #f8f8f2;
+}
+
+.welcome-container button {
+  padding: 0.75rem 2rem;
+  border: none;
+  background-color: #ff79c6;
+  color: #f0eef1;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.catalog-container {
+  margin-top: 2rem;
+}
+
+.catalog-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ff79c6;
+  margin-left: 45%;
+}
+
+.catalog-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catalog-container li {
+  margin-bottom: 1rem;
+  width: calc(20% - 1rem);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.catalog-container button {
+  padding: 0.5rem 0.25rem;
+  border: none;
+  background-color: #ffffff;
+  color: #ff79c6;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.catalog-container button img{
+  width: 150px;
+  height: 150px;
+  border-radius: 0.25rm;
+  cursor: pointer;
+}
+.catalog-container button p{
+  font-family: cursive;
+  color: #000000;
+}
+
+.detailed-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.detailed-container h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #ff79c6;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.detailed-container .dogProps {
+  font-size: 1.5rem;
+  color: #f8f8f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.detailed-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.detailed-container button {
+  padding: 0.75rem 1rem;
+  border: none;
+  background-color: #ff79c6;
+  color: #f0eef1;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .welcome-container h1 {
+    font-size: 1.5rem;
+  }
+  
+  .welcome-container p {
+    font-size: 1rem;
+  }
+  
+  .welcome-container button {
+    font-size: 1rem;
+  }
+  
+  .catalog-container li {
+    width: calc(50% - 1rem);
+  }
+  .catalog-container button img{
+    width: 100%;
+    height: auto;
+  }
+  
+  .detailed-container .dogProps {
+    font-size: 1rem;
+  }
+  
+  .detailed-container button {
+    font-size: 1rem;
+  }
+}
