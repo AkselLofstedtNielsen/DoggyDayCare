@@ -1,6 +1,6 @@
 
 body {
-  background-color: #fedfff;
+  background-color: #ffffff;
   color: #f0eef1;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .catalog-container button {
-  padding: 0.5rem 0.25rem;
+  padding: 0.5rem;
   border: 1px solid rgb(244, 91, 255);
   background-color: #ffffff;
   color: #ff79c6;
